@@ -25,7 +25,7 @@ public class JwtSpringSecurityDemoApplication {
             authenticationService.saveRole(new Role(null, "ADMIN"));
             authenticationService.saveRole(new Role(null, "USER"));
             authenticationService.saveRole(new Role(null, "EMPLOYEE"));
-//
+//rr
             authenticationService.assignRoleToUser("ADMIN", "mossaab");
             authenticationService.assignRoleToUser("USER", "mossaab");
             authenticationService.assignRoleToUser("USER", "anass");
